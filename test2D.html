@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 2D</title>
+</head>
+<body>
+    <script> 
+  
+        // Create one dimensional array 
+        var gfg = new Array(8); 
+          
+        // Loop to create 2D array using 1D array 
+        document.write("Creating 2D array <br>"); 
+        for (var i = 0; i < 8; i++) { 
+            gfg[i] = []; 
+        } 
+        
+          
+        // Loop to initilize 2D array elements. 
+        for (var i = 0; i < 8; i++) { 
+            for (var j = 0; j < 2; j++) { 
+          
+                gfg[i][j] = "h" ; 
+            } 
+        } 
+          
+        // Loop to display the elements of 2D array. 
+        for (var i = 0; i < 8; i++) { 
+            for (var j = 0; j < 2; j++) 
+          
+            { 
+                document.write(gfg[i][j] + " "); 
+            } 
+            document.write("<br>"); 
+        } 
+          
+        </script>                  
+</body>
+</html>
